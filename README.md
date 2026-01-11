@@ -1,4 +1,5 @@
-🚀 allxti optimizer V0.1
+*🚀 allxti optimizer V0.1*
+
 allxti optimizer es una potente herramienta de optimización de código abierto diseñada para exprimir cada gota de rendimiento de tu PC con Windows al jugar. Mediante la gestión inteligente de servicios, procesos y configuraciones de energía, reduce la latencia y maximiza tus FPS.
 
 ✨ Características Principales
