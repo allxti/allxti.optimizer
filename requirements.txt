@@ -1,5 +1,0 @@
-customtkinter
-psutil
-wmi
-pillow
-requests
