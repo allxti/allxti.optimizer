@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Allxti Optimizer - Optimiza tus juegos gratis</title>
+    <meta name="description"
+        content="Herramienta gratuita para optimizar el rendimiento de tus juegos en Windows. Sin suscripciones, sin anuncios.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Animated background -->
+    <div class="bg-animation">
+        <div class="glow glow-1"></div>
+        <div class="glow glow-2"></div>
+        <div class="glow glow-3"></div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">
+                <span class="logo-icon">🚀</span>
+                <span class="logo-text">Allxti Optimizer</span>
+            </a>
+            <div class="nav-links">
+                <a href="#features">Características</a>
+                <a href="#about">Sobre Mí</a>
+                <a href="#donate">Donar</a>
+                <a href="#download" class="btn-nav">Descargar</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <div class="badge">✨ 100% Gratis - Sin suscripciones</div>
+            <h1>Optimiza tus juegos <span class="gradient-text">al máximo</span></h1>
+            <p class="hero-subtitle">
+                Herramienta profesional para mejorar el rendimiento de tus juegos en Windows.
+                Libera recursos, reduce el lag y disfruta de una experiencia de juego fluida.
+            </p>
+            <div class="hero-buttons">
+                <button id="download-btn" class="btn btn-primary btn-lg" onclick="downloadLatestRelease()">
+                    <span class="btn-icon">⬇️</span>
+                    Descargar Gratis
+                </button>
+                <a href="https://github.com/allxti/allxti.optimizer" target="_blank" class="btn btn-secondary btn-lg">
+                    <span class="btn-icon">⭐</span>
+                    Ver en GitHub
+                </a>
+            </div>
+            <div class="hero-stats">
+                <div class="stat">
+                    <span class="stat-number">+50</span>
+                    <span class="stat-label">Servicios optimizados</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-number">0$</span>
+                    <span class="stat-label">Para siempre</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-number">1-Click</span>
+                    <span class="stat-label">Fácil de usar</span>
+                </div>
+            </div>
+        </div>
+        <div class="hero-image">
+            <div class="app-preview">
+                <div class="preview-header">
+                    <div class="preview-dots">
+                        <span></span><span></span><span></span>
+                    </div>
+                    <span class="preview-title">Allxti Optimizer v0.1</span>
+                </div>
+                <div class="preview-content">
+                    <div class="preview-tiles">
+                        <div class="tile"><span class="tile-icon">💻</span><span class="tile-value">32%</span><span
+                                class="tile-label">CPU</span></div>
+                        <div class="tile"><span class="tile-icon">🖥️</span><span class="tile-value">45%</span><span
+                                class="tile-label">GPU</span></div>
+                        <div class="tile"><span class="tile-icon">💾</span><span class="tile-value">58%</span><span
+                                class="tile-label">RAM</span></div>
+                        <div class="tile"><span class="tile-icon">🌡️</span><span class="tile-value">62°C</span><span
+                                class="tile-label">Temp</span></div>
+                        <div class="tile"><span class="tile-icon">📊</span><span class="tile-value">144</span><span
+                                class="tile-label">FPS</span></div>
+                        <div class="tile"><span class="tile-icon">⚡</span><span class="tile-value">95W</span><span
+                                class="tile-label">Power</span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features">
+        <div class="container">
+            <h2 class="section-title">¿Qué hace <span class="gradient-text">Allxti Optimizer</span>?</h2>
+            <p class="section-subtitle">Optimizaciones reales que marcan la diferencia</p>
+
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">🔧</div>
+                    <h3>Detiene Servicios Innecesarios</h3>
+                    <p>Pausa más de 50 servicios de Windows que consumen recursos mientras juegas, liberando CPU y RAM.
+                    </p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">⚡</div>
+                    <h3>Plan de Energía Máximo</h3>
+                    <p>Activa automáticamente el plan de alto rendimiento para que tu PC funcione al 100%.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🧹</div>
+                    <h3>Cierra Procesos en Segundo Plano</h3>
+                    <p>Termina Discord, Spotify, navegadores y otras apps que roban recursos sin que te des cuenta.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">📊</div>
+                    <h3>Monitoreo en Tiempo Real</h3>
+                    <p>Visualiza CPU, GPU, RAM, temperatura, FPS estimado y consumo de energía mientras juegas.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🔄</div>
+                    <h3>Punto de Restauración</h3>
+                    <p>Crea automáticamente un punto de restauración antes de optimizar, para mayor seguridad.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🌐</div>
+                    <h3>Español e Inglés</h3>
+                    <p>Interfaz disponible en español e inglés, con cambio de idioma en tiempo real.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2 class="section-title">Sobre <span class="gradient-text">Mí</span></h2>
+                    <p class="about-intro">
+                        ¡Hola! Soy <strong>Allxti</strong>, un aficionado y entusiasta de la tecnología.
+                    </p>
+                    <p>
+                        Creé Allxti Optimizer porque estaba cansado de las herramientas de "optimización"
+                        que te cobran suscripciones mensuales por funciones básicas, o peor aún,
+                        que prometen mejoras mágicas que nunca llegan.
+                    </p>
+                    <p>
+                        Mi objetivo es simple: crear una herramienta que <strong>DE VERDAD</strong> ayude
+                        a mejorar la experiencia de juego, sin que tengas que gastar ni un centavo.
+                    </p>
+                    <p>
+                        Este proyecto es 100% gratuito y de código abierto. Si te es útil, considera
+                        darle una ⭐ en GitHub o hacer una pequeña donación para mantenerlo activo.
+                    </p>
+                    <div class="about-links">
+                        <a href="https://github.com/allxti" target="_blank" class="social-link">
+                            <span>GitHub</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <div class="code-window">
+                        <div class="code-header">
+                            <div class="code-dots"><span></span><span></span><span></span></div>
+                            <span>optimizer.py</span>
+                        </div>
+                        <pre class="code-content"><code><span class="keyword">def</span> <span class="function">optimize_system</span>():
+    <span class="comment"># Crear punto de restauración</span>
+    create_restore_point()
+    
+    <span class="comment"># Detener servicios innecesarios</span>
+    stop_gaming_services()
+    
+    <span class="comment"># Configurar alto rendimiento</span>
+    set_high_performance()
+    
+    <span class="keyword">return</span> <span class="string">"✅ Optimizado"</span></code></pre>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Download Section -->
+    <section id="download" class="download">
+        <div class="container">
+            <h2 class="section-title">Descargar <span class="gradient-text">Allxti Optimizer</span></h2>
+            <p class="section-subtitle">Disponible para Windows 10/11</p>
+
+            <div class="download-card">
+                <div class="download-info">
+                    <div class="download-icon">🚀</div>
+                    <div class="download-details">
+                        <h3>Allxti Optimizer <span id="latest-version">v0.1</span></h3>
+                        <p id="download-size">Instalador para Windows • Cargando...</p>
+                    </div>
+                </div>
+                <button id="download-btn-main" class="btn btn-primary btn-lg" onclick="downloadLatestRelease()">
+                    <span class="btn-icon">⬇️</span>
+                    <span id="download-text">Descargar</span>
+                </button>
+            </div>
+
+            <div class="requirements">
+                <h4>Requisitos del Sistema</h4>
+                <ul>
+                    <li>Windows 10 o Windows 11</li>
+                    <li>Python 3.8+ (incluido en el instalador)</li>
+                    <li>Permisos de administrador (para optimización completa)</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Donate Section -->
+    <section id="donate" class="donate">
+        <div class="container">
+            <h2 class="section-title">Apoya el <span class="gradient-text">Proyecto</span></h2>
+            <p class="section-subtitle">
+                Si Allxti Optimizer te ha sido útil, considera hacer una donación para mantenerlo activo.
+            </p>
+
+            <div class="donate-grid">
+                <a href="https://paypal.me/sebastiandiazdiaz2818" target="_blank" class="donate-card">
+                    <span class="donate-icon">💳</span>
+                    <h3>PayPal</h3>
+                    <p>Donación rápida y segura</p>
+                </a>
+                <a href="https://www.binance.com" target="_blank" class="donate-card">
+                    <span class="donate-icon">🪙</span>
+                    <h3>Binance</h3>
+                    <p>Si prefieres crypto</p>
+                </a>
+                <a href="https://github.com/allxti/allxti.optimizer" target="_blank" class="donate-card">
+                    <span class="donate-icon">⭐</span>
+                    <h3>GitHub Star</h3>
+                    <p>Gratis pero muy valioso</p>
+                </a>
+            </div>
+
+            <p class="donate-note">
+                Cualquier cantidad ayuda. ¡Gracias por tu apoyo! ❤️
+            </p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <span class="logo-icon">🚀</span>
+                    <span class="logo-text">Allxti Optimizer</span>
+                </div>
+                <p>Hecho con ❤️ por Allxti</p>
+                <div class="footer-links">
+                    <a href="https://github.com/allxti/allxti.optimizer" target="_blank">GitHub</a>
+                    <a href="#download">Descargar</a>
+                    <a href="#donate">Donar</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Allxti. Proyecto de código abierto.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
