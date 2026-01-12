@@ -1,44 +1,82 @@
-*🚀 allxti optimizer V0.1*
+# 🚀 Allxti Optimizer
+  
+  **Tu PC, al máximo rendimiento. Sin suscripciones, sin trucos.**
+  
+  [![Version](https://img.shields.io/github/v/release/allxti/allxti.optimizer?style=for-the-badge&color=22d3ee)](https://github.com/allxti/allxti.optimizer/releases)
+  [![Platform](https://img.shields.io/badge/Platform-Windows-blue?style=for-the-badge&logo=windows)](https://microsoft.com)
+  [![License](https://img.shields.io/github/license/allxti/allxti.optimizer?style=for-the-badge&color=6366f1)](LICENSE)
+  [![Downloads](https://img.shields.io/github/downloads/allxti/allxti.optimizer/total?style=for-the-badge&color=10b981)](https://github.com/allxti/allxti.optimizer/releases)
 
-allxti optimizer es una potente herramienta de optimización de código abierto diseñada para exprimir cada gota de rendimiento de tu PC con Windows al jugar. Mediante la gestión inteligente de servicios, procesos y configuraciones de energía, reduce la latencia y maximiza tus FPS.
+  [🌐 Ver Página Web Oficial](https://allxti.github.io/allxti.optimizer/) | [⬇️ Descargar Última Versión](https://github.com/allxti/allxti.optimizer/releases/latest)
+</div>
 
-✨ Características Principales
-⚡ Optimización Extrema: Detiene más de 100 servicios innecesarios de Windows que consumen recursos en segundo plano.
+---
 
-🎮 Perfiles de Juego: Agrega tus juegos favoritos y aplica configuraciones específicas para cada uno.
+## ⚡ ¿Qué es Allxti Optimizer?
 
-📊 Monitoreo en Tiempo Real: Visualiza el uso de CPU, GPU, RAM, temperaturas y FPS a través de una interfaz moderna y minimalista.
+**Allxti Optimizer** es una herramienta **gratuita y de código abierto** diseñada para maximizar el rendimiento de tu PC en juegos. Nació de la frustración de ver programas de "optimización" llenos de bloatware, suscripciones mensuales y promesas falsas.
 
-🔋 Planes de Energía Personalizados: Activa automáticamente el plan de "Máximo Rendimiento" para eliminar cuellos de botella.
+Mi objetivo es simple: **Darte los FPS que te mereces, gratis.**
 
-🌐 Limpieza de Navegadores: Opción para cerrar procesos de Chrome, Edge y Firefox automáticamente al iniciar un juego.
+![Preview](https://raw.githubusercontent.com/allxti/allxti.optimizer/main/LOGO.png)
 
-🛠️ Ajustes de VRAM y Prioridad: Optimiza la memoria de video y asigna prioridad de tiempo real a los procesos de juego.
+## ✨ Características Principales
 
-🔄 Modo Restauración: Con un solo clic, devuelve tu sistema a su estado original de forma segura.
+*   **🛡️ Modo Seguro "Lite"**: Puedes usar la app sin permisos de administrador para limpiezas básicas.
+*   **🔧 Optimización Profunda de Servicios**: Detiene temporalmente más de 50 servicios innecesarios de Windows.
+*   **⚡ Plan de Energía Máximo**: Fuerza al sistema a usar el plan de "Alto Rendimiento" o "Ultimate Performance".
+*   **🧹 Limpieza de Procesos**: Cierra automáticamente apps devoradoras de recursos (Discord, Spotify, Chrome) al optimizar.
+*   **🔒 Puntos de Restauración**: Crea automáticamente un backup del sistema antes de tocar nada. ¡Seguridad primero!
+*   **📊 Monitoreo Real**: Visualiza CPU, GPU, RAM, temperaturas y energía en tiempo real.
+*   **🎮 Detección de Juegos**: Elige tu juego y optimiza específicamente para él.
+*   **🔄 Actualizaciones Automáticas**: La app se actualiza sola sin que tengas que volver a descargar el instalador.
 
-🛠️ Tecnologías utilizadas
-Lenguaje: Python 🐍
+## 📥 Instalación
 
-GUI: CustomTkinter (Interfaz moderna)
+1.  Ve a la sección de [**Releases**](https://github.com/allxti/allxti.optimizer/releases/latest).
+2.  Descarga el archivo `AllxtiOptimizer_v0.1_Setup.exe`.
+3.  Ejecútalo e instálalo como cualquier programa.
+4.  ¡Listo! Ábrelo desde tu escritorio.
 
-Hardware: WMI & GPUtil (Lectura de sensores)
+> **Nota:** Windows Defender puede mostrar una advertencia (SmartScreen) porque el certificado de firma cuesta dinero y este es un proyecto gratuito. Simplemente da clic en **"Más información"** -> **"Ejecutar de todas formas"**. El código es 100% abierto para tu tranquilidad.
 
-Sistema: Windows Registry & Subprocess (Ajustes de bajo nivel)
+## 🛠️ Para Desarrolladores (Build from source)
 
-⚠️ Aviso de Seguridad
-Esta herramienta realiza cambios en los servicios del sistema y el registro de Windows para maximizar el rendimiento. Aunque incluye un botón de Restaurar, se recomienda crear un punto de restauración del sistema antes de aplicar optimizaciones extremas por primera vez.
+Si prefieres ejecutar el código fuente o contribuir:
 
-🤝 Contribuciones y Donaciones
-¡El proyecto está en su fase inicial (v0.1) y las contribuciones son bienvenidas! Si encuentras un bug o tienes una sugerencia, abre un Issue.
+```bash
+# 1. Clonar el repositorio
+git clone https://github.com/allxti/allxti.optimizer.git
+cd allxti.optimizer
 
-Si te gusta el proyecto y quieres apoyar su desarrollo:
+# 2. Instalar dependencias
+pip install -r requirements.txt
 
-⭐ Dale una estrella al repositorio.
+# 3. Ejecutar
+python main.py
 
-❤️ Puedes realizar una donación a través del botón integrado en la app.
+# 4. Compilar (crear .exe)
+build.bat
+```
 
-📜 Licencia
-Este proyecto está bajo la Licencia MIT. Consulta el archivo LICENSE para más detalles.
+## 🤝 Contribuir y Soporte
 
-Desarrollado con ❤️ por [allxti]
+Este es un proyecto personal hecho con ❤️.
+
+*   Si encuentras un **bug**, abre un [Issue](https://github.com/allxti/allxti.optimizer/issues).
+*   Si tienes una **idea**, ¡también eres bienvenido!
+
+### ❤️ Donaciones
+
+Si la herramienta te ha servido y quieres invitarme un café (o una pizza 🍕):
+
+*   **PayPal**: [paypal.me/sebastiandiazdiaz2818](https://paypal.me/sebastiandiazdiaz2818)
+*   **Binance ID**: `963664322` (Tu ID aquí)
+*   O simplemente deja una ⭐ en el repositorio, ¡ayuda muchísimo!
+
+---
+
+<div align="center">
+  <p>Hecho por <b>Allxti</b> • 2026</p>
+  <p><i>"Optimization should be free for everyone."</i></p>
+</div>
