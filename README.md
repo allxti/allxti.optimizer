@@ -1,4 +1,4 @@
-# 🚀 Allxti Optimizer
+# 🚀 Allxti Optimizer (BETA)
   
   **Tu PC, al máximo rendimiento. Sin suscripciones, sin trucos.**
   
@@ -71,7 +71,7 @@ Este es un proyecto personal hecho con ❤️.
 Si la herramienta te ha servido y quieres invitarme un café (o una pizza 🍕):
 
 *   **PayPal**: [paypal.me/sebastiandiazdiaz2818](https://paypal.me/sebastiandiazdiaz2818)
-*   **Binance ID**: `963664322` (Tu ID aquí)
+*   **Binance ID**: `963664322`
 *   O simplemente deja una ⭐ en el repositorio, ¡ayuda muchísimo!
 
 ---
