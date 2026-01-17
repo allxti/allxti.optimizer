@@ -18,8 +18,6 @@
 
 Mi objetivo es simple: **Darte los FPS que te mereces, gratis.**
 
-![Preview](https://raw.githubusercontent.com/allxti/allxti.optimizer/main/LOGO.png)
-
 ## ✨ Características Principales
 
 *   **🛡️ Modo Seguro "Lite"**: Puedes usar la app sin permisos de administrador para limpiezas básicas.
@@ -34,7 +32,7 @@ Mi objetivo es simple: **Darte los FPS que te mereces, gratis.**
 ## 📥 Instalación
 
 1.  Ve a la sección de [**Releases**](https://github.com/allxti/allxti.optimizer/releases/latest).
-2.  Descarga el archivo `AllxtiOptimizer_v0.1_Setup.exe`.
+2.  Descarga el archivo `AllxtiOptimizer_v0.3_Setup.exe`. (o ultimo release disponible)
 3.  Ejecútalo e instálalo como cualquier programa.
 4.  ¡Listo! Ábrelo desde tu escritorio.
 
@@ -70,7 +68,6 @@ Este es un proyecto personal hecho con ❤️.
 
 Si la herramienta te ha servido y quieres invitarme un café (o una pizza 🍕):
 
-*   **PayPal**: [paypal.me/sebastiandiazdiaz2818](https://paypal.me/sebastiandiazdiaz2818)
 *   **Binance ID**: `963664322`
 *   O simplemente deja una ⭐ en el repositorio, ¡ayuda muchísimo!
 
